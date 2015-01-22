@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C57928561A717F0E00367993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57928551A717F0E00367993 /* main.m */; };
-		C57928591A717F0E00367993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57928581A717F0E00367993 /* AppDelegate.m */; };
-		C579285C1A717F0E00367993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C579285B1A717F0E00367993 /* ViewController.m */; };
-		C579285F1A717F0E00367993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579285D1A717F0E00367993 /* Main.storyboard */; };
-		C57928611A717F0E00367993 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57928601A717F0E00367993 /* Images.xcassets */; };
-		C57928641A717F0E00367993 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57928621A717F0E00367993 /* LaunchScreen.xib */; };
+		C571B4D21A7188A20000AAFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C571B4C51A7188A20000AAFD /* LaunchScreen.xib */; };
+		C571B4D31A7188A20000AAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C571B4C61A7188A20000AAFD /* Main.storyboard */; };
+		C571B4D41A7188A20000AAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C571B4C81A7188A20000AAFD /* main.m */; };
+		C571B4D61A7188A20000AAFD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C571B4D11A7188A20000AAFD /* Info.plist */; };
+		C571B4DA1A7188AF0000AAFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C571B4D81A7188AF0000AAFD /* Images.xcassets */; };
+		C571B4E21A718A8C0000AAFD /* AVTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C571B4E11A718A8C0000AAFD /* AVTestVC.m */; };
+		C571B4E61A718B0B0000AAFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C571B4E51A718B0B0000AAFD /* AppDelegate.m */; };
 		C57928701A717F0E00367993 /* AVMultipeerConnectivyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C579286F1A717F0E00367993 /* AVMultipeerConnectivyTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C571B4C51A7188A20000AAFD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C571B4C61A7188A20000AAFD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C571B4C81A7188A20000AAFD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C571B4D11A7188A20000AAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C571B4D81A7188AF0000AAFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C571B4E01A718A8C0000AAFD /* AVTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTestVC.h; sourceTree = "<group>"; };
+		C571B4E11A718A8C0000AAFD /* AVTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTestVC.m; sourceTree = "<group>"; };
+		C571B4E41A718B0B0000AAFD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C571B4E51A718B0B0000AAFD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C57928501A717F0E00367993 /* AVMultipeerConnectivy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVMultipeerConnectivy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C57928541A717F0E00367993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C57928551A717F0E00367993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C57928571A717F0E00367993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C57928581A717F0E00367993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C579285A1A717F0E00367993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C579285B1A717F0E00367993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C579285E1A717F0E00367993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C57928601A717F0E00367993 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C57928631A717F0E00367993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C57928691A717F0E00367993 /* AVMultipeerConnectivyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVMultipeerConnectivyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C579286E1A717F0E00367993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C579286F1A717F0E00367993 /* AVMultipeerConnectivyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVMultipeerConnectivyTests.m; sourceTree = "<group>"; };
@@ -60,11 +61,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C571B4C21A7188A20000AAFD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4C31A7188A20000AAFD /* iPad */,
+				C571B4C41A7188A20000AAFD /* iPhone */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C571B4C31A7188A20000AAFD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		C571B4C41A7188A20000AAFD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4DF1A718A8C0000AAFD /* AVTestVC */,
+				C571B4C51A7188A20000AAFD /* LaunchScreen.xib */,
+				C571B4C61A7188A20000AAFD /* Main.storyboard */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		C571B4C71A7188A20000AAFD /* Other sources */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4C81A7188A20000AAFD /* main.m */,
+			);
+			path = "Other sources";
+			sourceTree = "<group>";
+		};
+		C571B4C91A7188A20000AAFD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4CD1A7188A20000AAFD /* Library */,
+				C571B4CE1A7188A20000AAFD /* Models */,
+				C571B4CF1A7188A20000AAFD /* Support */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C571B4CD1A7188A20000AAFD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C571B4CE1A7188A20000AAFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C571B4CF1A7188A20000AAFD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C571B4D01A7188A20000AAFD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4D11A7188A20000AAFD /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C571B4D71A7188AF0000AAFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4D81A7188AF0000AAFD /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C571B4D91A7188AF0000AAFD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C571B4DF1A718A8C0000AAFD /* AVTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4E01A718A8C0000AAFD /* AVTestVC.h */,
+				C571B4E11A718A8C0000AAFD /* AVTestVC.m */,
+			);
+			path = AVTestVC;
+			sourceTree = "<group>";
+		};
+		C571B4E31A718B0B0000AAFD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C571B4E41A718B0B0000AAFD /* AppDelegate.h */,
+				C571B4E51A718B0B0000AAFD /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		C57928471A717F0E00367993 = {
 			isa = PBXGroup;
 			children = (
 				C57928521A717F0E00367993 /* AVMultipeerConnectivy */,
 				C579286C1A717F0E00367993 /* AVMultipeerConnectivyTests */,
+				C571B4D71A7188AF0000AAFD /* Resources */,
+				C571B4D91A7188AF0000AAFD /* Vendor */,
 				C57928511A717F0E00367993 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,25 +190,13 @@
 		C57928521A717F0E00367993 /* AVMultipeerConnectivy */ = {
 			isa = PBXGroup;
 			children = (
-				C57928571A717F0E00367993 /* AppDelegate.h */,
-				C57928581A717F0E00367993 /* AppDelegate.m */,
-				C579285A1A717F0E00367993 /* ViewController.h */,
-				C579285B1A717F0E00367993 /* ViewController.m */,
-				C579285D1A717F0E00367993 /* Main.storyboard */,
-				C57928601A717F0E00367993 /* Images.xcassets */,
-				C57928621A717F0E00367993 /* LaunchScreen.xib */,
-				C57928531A717F0E00367993 /* Supporting Files */,
+				C571B4E31A718B0B0000AAFD /* Application */,
+				C571B4C21A7188A20000AAFD /* Modules */,
+				C571B4C91A7188A20000AAFD /* Shared */,
+				C571B4D01A7188A20000AAFD /* Supporting files */,
+				C571B4C71A7188A20000AAFD /* Other sources */,
 			);
 			path = AVMultipeerConnectivy;
-			sourceTree = "<group>";
-		};
-		C57928531A717F0E00367993 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C57928541A717F0E00367993 /* Info.plist */,
-				C57928551A717F0E00367993 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C579286C1A717F0E00367993 /* AVMultipeerConnectivyTests */ = {
@@ -199,9 +296,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C579285F1A717F0E00367993 /* Main.storyboard in Resources */,
-				C57928641A717F0E00367993 /* LaunchScreen.xib in Resources */,
-				C57928611A717F0E00367993 /* Images.xcassets in Resources */,
+				C571B4D21A7188A20000AAFD /* LaunchScreen.xib in Resources */,
+				C571B4DA1A7188AF0000AAFD /* Images.xcassets in Resources */,
+				C571B4D31A7188A20000AAFD /* Main.storyboard in Resources */,
+				C571B4D61A7188A20000AAFD /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C579285C1A717F0E00367993 /* ViewController.m in Sources */,
-				C57928591A717F0E00367993 /* AppDelegate.m in Sources */,
-				C57928561A717F0E00367993 /* main.m in Sources */,
+				C571B4E21A718A8C0000AAFD /* AVTestVC.m in Sources */,
+				C571B4D41A7188A20000AAFD /* main.m in Sources */,
+				C571B4E61A718B0B0000AAFD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +340,6 @@
 			targetProxy = C579286A1A717F0E00367993 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C579285D1A717F0E00367993 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C579285E1A717F0E00367993 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C57928621A717F0E00367993 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C57928631A717F0E00367993 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C57928711A717F0E00367993 /* Debug */ = {
@@ -345,7 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AVMultipeerConnectivy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AVMultipeerConnectivy/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AVMultipeerConnectivy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AVMultipeerConnectivy/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +493,7 @@
 				C57928751A717F0E00367993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C57928761A717F0E00367993 /* Build configuration list for PBXNativeTarget "AVMultipeerConnectivyTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +502,7 @@
 				C57928781A717F0E00367993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

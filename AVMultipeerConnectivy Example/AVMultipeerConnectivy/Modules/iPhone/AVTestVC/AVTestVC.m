@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Aleksander Vdovichenko. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AVTestVC.h"
 
-@interface ViewController ()
+@interface AVTestVC ()
 
 @end
 
-@implementation ViewController
+@implementation AVTestVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
